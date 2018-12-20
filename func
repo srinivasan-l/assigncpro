@@ -1,0 +1,17 @@
+#include <stdio.h>
+int area(int a , int b);
+int main()
+{
+   int b, h, result;
+    printf("enter base and height");
+    scanf("%d %d", &b ,&h);
+    result = area(b , h);
+    printf("the area of triangle is :%d",result);
+}
+int area(int a , int b)
+{
+ int op , area ;
+   op= a*b;
+   area=op/2 ;
+   return area;
+}
